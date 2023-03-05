@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+}
+nav img{
+    scale: 0.75;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   
+}
+header{
+    padding: 15px 120px 15px 30px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+/* Main Section Styling */
+section{
+    display: flex ;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form h1{
+   text-align: center;
+   font-weight: 700;
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+form input{
+    border: transparent;
+    padding: 5px 10px;
+}
+form textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}

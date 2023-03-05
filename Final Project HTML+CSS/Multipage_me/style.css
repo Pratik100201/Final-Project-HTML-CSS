@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    scale: 0.75;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   
+}
+header{
+    padding: 15px 120px 15px 30px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+/* Main Section Styling */
+main{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+.left{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 60%;
+    background-image: url(Images/stethoscope.png);
+    padding-left: 30px;
+    margin: 25px auto auto 30px;
+}
+.left img:first-child , .left img[alt="&"] , .left img[alt="$"]{
+    height: 30px;
+    width: 30px;
+}
+.left img[alt="&"]{
+    position: relative;
+    right: -550px;
+    top: -100px;
+}
+.left img:first-child{
+    position: relative;
+    top: 20px;
+}
+.left img[alt="$"]{
+    position: relative;
+    right: -650px;
+    top: -120px;
+
+}
+.left h1{
+    font-size: 65px;
+    width: 85%;
+}
+.left p{
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+    width: 80%;
+}
+.left button{
+    padding: 15px 40px;
+    width: fit-content;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    background-color: #20bc7e;
+    color: white;
+    cursor: pointer;
+}
+.right{
+    width: 40%;
+}
+
+.right img:first-child{
+    width: 90%;
+    z-index: -1;
+    position: relative;
+    top: 80px;
+    right: -55px;
+
+}
+.right img:nth-child(2){
+    width: 80%;
+    position: relative;
+    top: -360px;
+    /* right: -120px; */
+    left: 100px;
+
+}
+.right img:last-child{
+    height: 600px;
+    position: relative;
+    bottom: 920px;
+    left: 80px;
+
+}
+
+   
